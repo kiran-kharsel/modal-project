@@ -7,8 +7,6 @@ openModalBtn.addEventListener('click', function(){
 })
 
 closeModalBtn.addEventListener('click', function(){
-    console.log('workoing');
     myDialog.close()
 })
 
-console.log(myDialog)
