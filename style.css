@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url('https://images.pexels.com/photos/1366957/pexels-photo-1366957.jpeg');
+    background-position: center center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+.modal-card{
+    background-color: white;
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.modal-card h1{
+    text-transform: capitalize;
+    font-size: 50px;
+}
+
+.modal-card button{
+    padding: 10px;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    background-color: rgb(39, 207, 212);
+    color: white;
+    border-radius: 5px;
+}
